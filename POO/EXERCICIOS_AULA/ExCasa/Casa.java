@@ -6,15 +6,7 @@ public class Casa{
 	static int comodos;
 	static String cor;
 	
-	public static void main (String arg[]){
-
-		Casa c = new Casa();
-		
-		c.Entrada(c);
-		c.ImprimiCasa(c);
-
-		System.out.println ("\n\nMAS É A CASA QUE TEM");
-	}
+	
 
 	public void Entrada(Casa c){
 		
@@ -32,7 +24,7 @@ public class Casa{
 	
 		Casa m = new Casa();
 
-		System.out.println ("\n\n===NAO É UMA CASA MUITO ENGRAÇADA===");
+		System.out.println ("\n\n\t---DADOS DA CASA---");
 		System.out.println ("\n\nTipo.......: "+c.tipo);	
 		System.out.println ("Modelo.....: "+c.modelo);
 		System.out.println ("Localidade.: "+c.local);
